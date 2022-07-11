@@ -129,7 +129,7 @@ services:
       _AIRFLOW_WWW_USER_PASSWORD: ${_AIRFLOW_WWW_USER_PASSWORD:-airflow}
 
   dashboard:
-    image: metabase/metabase
+    image: metabase/metabase:latest
     container_name: dashboard
     ports:
       - "3000:3000"
